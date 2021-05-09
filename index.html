@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="author" content="Patricia Zajec" />
+        <title>Patricia Zajec portfolio</title>
+
+        <link href="style.css" rel="stylesheet">
+        
+      
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        
+
+
+    </head>
+
+    <body>
+        <!--navigacija-->
+        <div class="navigation" id="navBar">
+            <a href="#home" class="active">Patricia Zajec</a>
+            <a href="#news">Kontakt</a>
+            <a href="#contact">Životopis</a>
+            <a href="#about">Radovi</a>
+            <a href="javascript:void(0);" class="icon" onclick="navFunction()">
+              <i class="fa fa-bars"></i>
+            </a>
+          </div>
+
+          <!--header-->
+         <!-- <div>
+          <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 1920 651" style="enable-background:new 0 0 1920 651;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#7100EE;stroke:#7100EE;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;}
+</style>
+<g>
+	<path class="st0" d="M-15.91,0v294c11.39,38.7,33.75,91.57,81.84,131c128.12,105.06,310.58,9.61,518.32-15
+		c504.78-59.8,734.4,348.98,1110.39,212c109.02-39.72,184.24-108.52,229.35-158V0H-15.91z"/>
+	<line class="st0" x1="-25" y1="445" x2="-25" y2="451"/>
+</g>
+</svg>
+
+</div>-->
+<!--uvod-->
+<section class="uvod">
+<div class="introduction">
+  
+  <div class="column-0 bg">
+    <h1>Dobrodošli na moju stranicu!</h1>
+    <ul class="border"></ul>
+    <p>Pozdrav! Ja sam Patricia. Moja ljubav prema IT-ju krenula je tijekom srednje škole. Najviše me je privlačilo programiranje. 
+      Prvi jezik koji sam učila bio je Python, nakon njega počela sam posvećivati pažnju web developmentu (front-end). Krenula sam 
+      učiti HTML, CSS i Javascript te sam krenula raditi svoje prve web stranice, landing pages itd. U isto vrijeme sam se sve više 
+      počela služiti alatima za grafičku obradu (Photoshop, Illustrator, Blender) kako bih svojim stranicama dala ljepši ugođaj.
+      2020. godine položila sam osposobljavanje za Android programiranje (Java, XML, SQLLite).
+      <br> Dosta priče, nastavi dalje i vidi moje radove!
+    </p>
+
+  </div>
+
+</div>
+</section>
+
+<!--radovi-->
+
+<!--
+<section class="radovi">
+<div class="work-gallery">
+  <h1 class="center ">Moji radovi</h1>
+  
+<div class="container">
+  <div class="gal gal1">
+  <div class="card">
+      <div class="face face1">
+          <div class="content">
+              <img src="web-development.png">
+              <h3>Web</h3>
+          </div>
+      </div>
+      <div class="face face2">
+          <div class="content">
+              <p>Istaknute web stranice i web aplikacije.</p>
+                  <a href="#">Više...</a>
+          </div>
+      </div>
+  </div>
+  </div>
+
+  <div class="gal">
+  <div class="card">
+      <div class="face face1">
+          <div class="content">
+              <img src="testiranje.png">
+              <h3>Android</h3>
+          </div>
+      </div>
+      <div class="face face2">
+          <div class="content">
+              <p>Istaknute aplikacije napravljene u Android Studio-u.</p>
+                  <a href="#">Više...</a>
+          </div>
+      </div>
+  </div>
+  </div>
+
+  <div class="gal">
+  <div class="card">
+      <div class="face face1">
+          <div class="content">
+              <img src="graphic-development.png">
+              <h3>Grafika</h3>
+          </div>
+      </div>
+      <div class="face face2">
+          <div class="content">
+              <p>Zbirka radova napravljenih u Photohopu, Illustratoru i Blenderu.</p>
+                  <a href="#">Više...</a>
+          </div>
+      </div>
+  </div>
+</div>
+</div>
+</div>
+ </section>
+
+ <section class="kontakt">
+
+<div class="contact">
+  <h1 class="center ">Kontaktiraj me</h1>
+  <p style="text-align: center;">zajecpatricia@gmail.com</p>
+  
+</div>
+
+ </section>
+
+
+<footer>
+  <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="-1px" y="0px"
+	 viewBox="0 0 1920 500" style="enable-background:new 0 0 1920 500;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#7100EE;}
+</style>
+<path class="st0" d="M1693,453c-372.13,136.98-599.4-271.8-1099-212c-205.61,24.61-386.19,120.06-513,15
+	c-47.6-39.43-69.73-92.3-81-131v375h1920V295C1875.35,344.48,1800.9,413.28,1693,453z"/> 
+</svg>
+
+ 
+</footer>
+
+
+<div class="color">
+
+</div>-->
+
+
+   
+
+<script>
+  window.onscroll = function() {scrollFunction()};
+  
+  function scrollFunction() {
+    if (document.body.scrollTop > 10 || document.documentElement.scrollTop > 10) {
+      document.getElementById("navBar").style.backgroundColor ="#7100ee";
+     
+    } else {
+      document.getElementById("navBar").style.backgroundColor="transparent";
+      
+    }
+  }
+  </script>
+
+<script>
+  function navFunction() {
+    var x = document.getElementById("navBar");
+    if (x.className === "navigation") {
+      x.className += " responsive";
+    } else {
+      x.className = "navigation";
+    }
+  }
+  </script>
+
+
+
+
+
+    </body>
+
+
+
+
+
+</html>
