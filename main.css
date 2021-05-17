@@ -1,0 +1,169 @@
+body {margin:0px;
+  padding: 0;
+    font-family: 'Montserrat', sans-serif;
+       background-image: url('mobile-background.svg');
+       background-repeat: no-repeat;
+       background-size: cover;
+       height: 100%;
+       color: white;
+  }
+
+  * {box-sizing: border-box;
+     margin: 0;
+    padding: 0;}
+  
+p {text-align: center;
+      font-size: 12px;}
+
+h1 {font-size: 30px;  
+  font-weight: 600;
+  color: aquamarine;
+}
+
+h2 {font-size: 20px;
+font-weight: 400;}
+
+h3{font-size:14px;
+font-weight: 300;}
+
+
+.uvod {text-align: center;
+width: 100%;}
+
+.introduction {width: 100%;
+    height: 300px;
+    padding: 5%;
+    text-align: center;    
+}
+
+ 
+footer{
+    position: absolute;
+    height: 20px;
+    bottom: 5px;
+    width: 100%;
+    text-align: center;
+    font-size: 10px;    
+}
+
+.links {
+  position: fixed;
+  display: flex;
+  top: 0%;
+  left: 0;
+  width: 50px;
+  height: 20px;
+  padding: 5px;
+  text-align: left;
+  flex-direction: column;
+  }
+
+
+
+.dot {
+  height: 120px;
+  width: 120px;
+  background-color:transparent;
+  border-radius: 50%;
+  padding: 50px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.krugovi :hover {background-image: linear-gradient(32.2deg, #d37fff, #ff00ff);
+}
+
+.dot :hover {background-image: none;
+}
+
+.krugovi {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  width: 100%; 
+}
+
+.big-circle {
+ background-color: rgba(250,157,255, 0.1);
+  border-radius: 60%; 
+  height: 280px; 
+  width:280px; 
+  padding: 30px; 
+  margin-left: auto; 
+  margin-right: auto;
+
+}
+
+
+
+.animated-text {
+  display: block;
+  
+  color: #ffffff;
+}
+
+.showing-text{
+  margin-top: 50px;
+  
+  color: transparent;
+  animation-name: show;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+  animation-delay: 1.5s;
+}
+
+@keyframes show {
+  from{color:transparent;}
+  to{color:white;}
+}
+
+
+
+
+.picture {
+  border-radius: 50%;
+  padding: 2px;
+  background: linear-gradient(60deg, #d37fff, #ff00ff);
+  height: 100px;
+  width: 100px;
+}
+
+@media  screen and (min-width:600px) {
+  .showing-text {margin-top:10px;
+  }
+  .picture {width: 170px;
+  height: 170px;}
+}
+
+@media screen and (min-width:1000px) {
+h1 {font-size:50px;}
+h2 {font-size:35px;}
+h3 {font-size: 20px;}
+.showing-text {margin-top: 120px;}
+button {font-size:16px;
+        font-weight: 500;}
+.links {height: 100px;}
+
+}
+
+
+button{background-color:transparent;
+  color: white;
+  padding: 10px;
+  border: #ff00ff 2px solid;
+  border-radius: 10px;
+  margin-top: 15px;
+  font-family: 'Montserrat';
+}
+
+button:hover {
+  background-color: #ff00ff;
+}
+
+.name {height: 80px;
+width: 100%;
+margin-top: 40px;}
